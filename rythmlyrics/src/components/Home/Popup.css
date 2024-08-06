@@ -1,0 +1,66 @@
+.popup {
+    position: fixed;
+    top: 0 !important;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #020a20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    overflow: visible;
+    
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    top:30px;
+    width: 100%;
+    max-width: 600px;
+    background-color:whitesmoke;
+    align-items: center;
+    margin-bottom: 60px;
+    
+    
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    cursor: pointer;
+    color:white;
+  background-color: red;
+  border: none;
+    
+}
+/* .coin-image {
+    max-width: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+.coin {
+    cursor: pointer !important;
+    align-items: center !important;
+    box-shadow: 0.4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.9rem; 
+    padding: 5px;
+    
+}
+
+.selected {
+    border: 3px solid #41cc16 !important;
+}
+
+.fas{
+    line-height: unset;
+    padding: 0 5px;
+} */

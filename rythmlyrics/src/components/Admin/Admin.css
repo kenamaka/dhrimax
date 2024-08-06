@@ -1,0 +1,293 @@
+.body{
+        overflow: hidden;    
+        background: rgb(9, 14, 26) !important;
+        transition: transform 0.5s ease-in-out;
+}
+.topbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  border-radius: 30px;
+  top: 10px;
+  padding: 0px 5px;
+}
+
+  .topbar-bg {
+    background-color: #979a9c91;
+    border: 1px solid gainsboro;
+     
+  }
+
+.user-component{
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 0px;
+  border-radius: 200px;
+  justify-content: space-between;
+  background-color: #ffc107;
+  
+}
+.user-name{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px;
+  }
+.user-craft{
+  font-size: 10px;
+  color: #999;
+  margin: 5px;
+}
+
+@media screen and (min-width:1124px) {
+  .user-component{
+    
+  }
+  .user-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    }
+  .user-craft{
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+}
+
+
+.profile-pic-container {
+  width:50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+    }
+  
+  .back-btn{
+    position: fixed;
+    float:right;
+    z-index: 1;
+  }
+
+
+  
+  .menu-btn {
+    background: rgb(9, 14, 26) !important;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: none !important;
+    transition: 0.5s;
+  }
+  .search {
+    border: none;
+    outline: none;
+    background: transparent;
+    transition: border-bottom-color 0.3s ease-in-out;
+    background: transparent;
+    color: rgb(230, 230, 230) !important;
+
+  }
+  .search-box{
+    display: inline-flex;
+    justify-content: center;
+
+  }
+  .search:focus{
+    border-bottom-color: #464b4e;
+  }
+
+  .details{
+    text-align: left !important;
+  }
+
+  .account_title{
+    color: #fff;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: .8rem;
+    font-weight: 200;
+  
+    
+}
+
+  @media screen and (min-width:1140px) {
+    .topbar {
+        width: 60%;
+        position: fixed;
+        top: 18px;
+        left: 20%;
+        right: 20%;
+      }
+      .details{
+        text-align: center !important;
+      }
+      .account_title{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 400;
+    
+        
+    }
+    /* .search-box{
+      width: 200px;
+    } */
+  }
+  
+
+
+  button:focus {
+    outline: none !important;
+  }
+  
+
+
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+
+  }
+
+  .menu-options {
+    border-radius: 10px;
+    position: fixed; /* Set the position to fixed */
+    bottom:0;
+    left: 0;
+    width: 100%; /* Set the width to cover the entire page */
+    height: 60%; /* Set the height to cover the entire page */
+    background: rgb(217, 218, 221) !important;
+    z-index: 1; /* Set the z-index to be above all other elements on the page */
+    display: flex; /* Use flexbox to center the menu options */
+    align-items: center;
+    padding: 19;
+    height: 60%;
+  }
+  .found{
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    display: flex; /* Use flexbox to center the menu options */
+    align-items: center;
+    padding: 19;
+    background-color: #979a9c91;
+    border: 1px solid gainsboro;
+    z-index: -1;
+  }
+  .menu-options ul{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* max-height: 100vh; Set a maximum height to make the menu scrollable */
+    overflow-y: auto; 
+  }
+
+  @media screen and (min-width:1140px) {
+    .menu-options ul {
+        width: 80%;
+        border-radius: 100px;
+    border: 1px solid rgb(68, 67, 67);
+    
+
+        
+      }
+  }
+  .menu-options li{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    cursor: pointer;
+  }
+
+  .admin-icon{
+    font-size: 30px;
+  }
+    
+  
+  .menu-options li:hover {
+    background: rgb(9, 14, 26) !important;
+    color: #fff;
+    transition: background-color ease-in-out 0.3s;
+
+  }
+  
+  
+  
+  .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.757);
+    z-index: 1;
+    display: none;
+  }
+
+  .overlay.show{
+    display: block;
+  }
+  
+  
+
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .admin-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .admin-pic-container {
+    width:100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-flex;
+      }
+      .center{
+        align-items: center !important;
+        justify-content: center !important;
+      }  
+    
+.video_container{
+  border-bottom: none !important;
+    overflow: hidden;
+    display: inline-flex;
+   padding: 0.75rem 1.25rem;
+
+}
+
+.black{
+  background-color: #010209 !important;
+}
+
+.input-content{
+  position: relative;
+}
+.text{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(42, 41, 41);
+    color: #fff;
+    text-align: left;
+  }
+     
+
+

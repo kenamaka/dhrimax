@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="158" height="163" viewBox="0 0 158 163">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #132574;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fafbfc;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_2163);
+      }
+    </style>
+    <filter id="Rectangle_2163" x="0" y="0" width="158" height="163" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#132574" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7307" data-name="Group 7307" transform="translate(-734.5 -97.5)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 734.5, 97.5)">
+      <rect id="Rectangle_2163-2" data-name="Rectangle 2163" class="cls-1" width="83" height="88" rx="10" transform="translate(42.5 27.5)"/>
+    </g>
+    <g id="ic-ecommerce-card" transform="translate(798 148)">
+      <rect id="Rectangle_109" data-name="Rectangle 109" class="cls-2" width="42" height="42"/>
+      <g id="ic-ecommerce-card-2" data-name="ic-ecommerce-card" transform="translate(1.75 7)">
+        <g id="Layer">
+          <path id="Path_194" data-name="Path 194" class="cls-3" d="M34.25,4h-28A5.25,5.25,0,0,0,1,9.25v17.5A5.25,5.25,0,0,0,6.25,32h28a5.25,5.25,0,0,0,5.25-5.25V9.25A5.25,5.25,0,0,0,34.25,4Zm-28,3.5h28A1.75,1.75,0,0,1,36,9.25V11H4.5V9.25A1.75,1.75,0,0,1,6.25,7.5Zm28,21h-28A1.75,1.75,0,0,1,4.5,26.75V14.5H36V26.75A1.75,1.75,0,0,1,34.25,28.5Z" transform="translate(-1 -4)"/>
+        </g>
+        <g id="Layer-2" data-name="Layer" transform="translate(5.25 14)">
+          <path id="Path_195" data-name="Path 195" class="cls-3" d="M5.75,15.5h7a1.75,1.75,0,1,0,0-3.5h-7a1.75,1.75,0,1,0,0,3.5Z" transform="translate(-4 -12)"/>
+        </g>
+        <g id="Layer-3" data-name="Layer" transform="translate(5.25 19.25)">
+          <path id="Path_196" data-name="Path 196" class="cls-3" d="M18,15H5.75a1.75,1.75,0,1,0,0,3.5H18A1.75,1.75,0,1,0,18,15Z" transform="translate(-4 -15)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
